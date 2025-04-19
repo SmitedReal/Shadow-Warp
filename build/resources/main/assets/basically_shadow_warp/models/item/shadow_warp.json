@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "basically_shadow_warp:item/shadow_warp"
+  }
+}

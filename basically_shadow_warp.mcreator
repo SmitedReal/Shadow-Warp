@@ -1,0 +1,92 @@
+{
+  "mod_elements": [
+    {
+      "name": "ShadowWarpRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_warp_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/basicallyshadowwarp/procedures/ShadowWarpRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShadowWarp",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_warp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/basicallyshadowwarp/item/ShadowWarpItem.java",
+          "src/main/resources/assets/basically_shadow_warp/models/item/shadow_warp.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "hasGyrokineticked",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:ShadowWarp"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.basically_shadow_warp.shadow_warp": "Shadow Warp"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "basically_shadow_warp",
+    "modName": "Basically Shadow Warp",
+    "version": "1.1",
+    "author": "uvojt, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.basicallyshadowwarp"
+  },
+  "mcreatorVersion": 202500110519
+}
